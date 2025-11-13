@@ -13,7 +13,7 @@ function CitiesProvider({ children }) {
         async function fetchCities() {
             try {
                 setIsLoading(true);
-                const res = await fetch(`${BASE_URL}/app/cities`);
+                const res = await fetch(`${BASE_URL}/cities`);
                 const data = await res.json();
                 setCities(data);
             } catch {
@@ -28,7 +28,7 @@ function CitiesProvider({ children }) {
     async function getCity(id) {
         try {
             setIsLoading(true);
-            const res = await fetch(`${BASE_URL}/app/cities/${id}`);
+            const res = await fetch(`${BASE_URL}/cities/${id}`);
             const data = await res.json();
             setCurrentCity(data);
         } catch {
