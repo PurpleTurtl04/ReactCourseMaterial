@@ -32,11 +32,13 @@ function Form() {
 
     useEffect(
         function () {
+            if (!lat && !lng) return;
+
             async function fetchCityData() {
                 try {
                     setIsLoadingGeocoding(true);
                     const res = await fetch(
-                        `${BASE_URL}?latitude=${lat}?longitude=${lng}`
+                        `${BASE_URL}?latitude=${lat}&longitude=${lng}`
                     );
                     const data = await res.json();
                     console.log(data);
