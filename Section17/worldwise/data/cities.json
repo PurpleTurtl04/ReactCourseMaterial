@@ -35,54 +35,6 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
-    },
-    {
-      "id": "784f",
-      "cityName": "Mogadouro",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2025-11-14T22:24:29.255Z",
-      "notes": "Test",
-      "position": {
-        "lat": "41.42625319507272",
-        "lng": "-6.723632812500001"
-      }
-    },
-    {
-      "id": "0689",
-      "cityName": "Ivry-sur-Seine",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2025-10-27T21:28:02.000Z",
-      "notes": "Test 2",
-      "position": {
-        "lat": "48.821332549646655",
-        "lng": "2.39501953125"
-      }
-    },
-    {
-      "id": "a1c1",
-      "cityName": "Jersey",
-      "country": "Jersey",
-      "emoji": "🇯🇪",
-      "date": "2025-11-14T22:30:19.533Z",
-      "notes": "",
-      "position": {
-        "lat": "49.1242192485914",
-        "lng": "-2.0874023437500004"
-      }
-    },
-    {
-      "id": "5c20",
-      "cityName": "Bielefeld",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2025-09-01T21:34:34.000Z",
-      "notes": "",
-      "position": {
-        "lat": "52.01193653675363",
-        "lng": "8.558349609375002"
-      }
     }
   ]
 }
